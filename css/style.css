@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+ /* logo styling */
+
+#logo{
+    margin: -43px -69px;
+    
+}
+
+/* logo image styling */
+#logo img{
+    height: 76px;
+    margin: 3px 90px;
+    margin-top: -7px;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+/* list styling */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style:none;
+    font-size:1.3rem;
+}
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    margin:20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color:orangered;
+}
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    height: 440px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(../image/food.jpg) no-repeat center center/cover;
+    height: 96%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.98;
+}
+
+/* Home styling */
+
+#home .heading{
+    font-size: 3.5rem;
+    padding: 20px;
+    font-family: 'Rubik Spray Paint', cursive;
+    
+}
+#home .heading b{
+    font-size:80px;
+    color: orangered;
+    text-align: center;
+    
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size:26px ;
+    font-family: 'Pacifico', cursive;
+}
+
+.but{
+    padding: 6px 10px;
+    border: 2px solid #cddc39;
+    background-color: #ec407a;
+    color: #d4e157;
+    margin: 30px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Services Section */
+.h-primary{
+    background-color: rgba(0, 0, 0, 0);
+    color: orangered;
+    font-size: 3.1rem;
+    margin-top: 135px;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+.h-secondary{
+    font-size: 2.1rem;
+    margin: 5px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#services{
+    display: flex;
+    margin: 10px 64px;
+    
+}
+
+#services .box{
+    border-radius:20px;
+    margin: 5px 10px;
+    background-color: #08030095;
+
+}
+#services .box img{
+    height: 250px;
+    display: block;
+    margin: 6px 89px;
+}
+
+
+
+.services{  
+    background-color:rgba(0, 0, 0, 0.918); 
+
+}
